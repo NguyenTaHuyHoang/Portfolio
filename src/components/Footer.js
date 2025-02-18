@@ -26,6 +26,7 @@ export const Footer = () => {
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
+            <p>© Copy right 2025 @ntthoang</p>
           </Col>
         </Row>
       </Container>

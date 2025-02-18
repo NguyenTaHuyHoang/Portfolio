@@ -178,6 +178,7 @@ span.navbar-text {
   z-index: 1;
 }
 .navbar-text button::before {
+  border-radius: 10px;
   content: "";
   width: 0%;
   height: 100%;
@@ -192,6 +193,7 @@ span.navbar-text {
   color: #121212;
 }
 .navbar-text button:hover::before {
+  border-radius: 10px;
   content: "";
   width: 100%;
   height: 100%;
@@ -246,7 +248,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 270px 0 170px 0;
   background-image: url("./assets/img/banner-bg.png");
   background-position: top center;
   background-size: cover;
@@ -319,7 +321,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 80px 0 50px 0;
+  margin-top: 20px;
   position: relative;
 }
 .skill-bx {
@@ -529,11 +532,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button {
   font-weight: 700;
   color: #000;
-  background-color: #fff;
+  background-color: #dee2e6;
   padding: 14px 48px;
   font-size: 18px;
-  margin-top: 25px;
-  border-radius: 0;
+  margin-top: 20px;
+  border-radius: 20px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -542,9 +545,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .contact form button:hover {
+  border-radius: 20px;
   color: #fff;
 }
 .contact form button::before {
+  border-radius: 20px;
   content: "";
   background: #121212;
   width: 0;
@@ -568,7 +573,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 .newsletter-bx {
-  background: #ffffff;
+  background: #e9ecef;
   border-radius: 55px;
   color: #121212;
   padding: 85px 125px;

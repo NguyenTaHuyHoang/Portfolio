@@ -83,8 +83,14 @@ export const Banner = () => {
                     seeking an IT-related position to apply my skills, gain
                     experience, and contribute positively to your company.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
+                  <button
+                    onClick={() =>
+                      (window.location.href =
+                        "https://nguyentahuyhoang.tiiny.site/")
+                    }
+                  >
+                    Download my CV
+                    <ArrowRightCircle size={25} />
                   </button>
                 </div>
               )}
